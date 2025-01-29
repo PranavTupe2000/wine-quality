@@ -16,6 +16,6 @@ jobs:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-              -Dsonar.organization=PranavTupe
+              -Dsonar.organization=pranavtupe2000
               -Dsonar.projectKey=wine-quality
               -Dsonar.python.coverage.reportPaths=coverage.xml
